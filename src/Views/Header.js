@@ -1,4 +1,3 @@
-// Header.js
 import React from 'react';
 import './Header.css';
 import webcafeCup from '../assets/images/image_v1.png';
@@ -6,7 +5,7 @@ import webcafeLogo from '../assets/images/logo512.png';
 
 const Header = () => {
     return (
-        <header className="header">
+        <div className="header">
             <div className="header-top">
                 <img src={webcafeLogo} alt="WebCafe Logo" className="logo" />
                 <span className="brand-slogan">automate everything.</span>
@@ -23,7 +22,7 @@ const Header = () => {
                     <img src={webcafeCup} alt="Koala Illustration" />
                 </div>
             </div>
-        </header>
+        </div>
     );
 };
 
