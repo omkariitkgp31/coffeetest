@@ -15,14 +15,15 @@ const Topfold = () => {
         <span>Omkar Singh</span>
     </div>
     <ul className="navbar-links">
-        <li>LinkedIn</li>
-        <li>Codeforces</li>
-        <li>Leetcode</li>
-        <li>HackerEarth</li>
-        <li>Github</li>
-        <li>GFG</li>
-        <li>About</li>
-    </ul>
+    <li><a href="https://www.linkedin.com/in/omkar-singh-a10780293/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    <li><a href="https://codeforces.com/profile/hdawgs_tv" target="_blank" rel="noopener noreferrer">Codeforces</a></li>
+    <li><a href="https://leetcode.com/u/omkar_hacker9685/" target="_blank" rel="noopener noreferrer">Leetcode</a></li>
+    <li><a href="https://www.hackerrank.com/profile/isnghomkar237" target="_blank" rel="noopener noreferrer">HackerRank</a></li>
+    <li><a href="https://github.com/omkariitkgp31" target="_blank" rel="noopener noreferrer">Github</a></li>
+    <li><a href="https://www.geeksforgeeks.org/user/isnghom9t4f/" target="_blank" rel="noopener noreferrer">GFG</a></li>
+    <li>About</li>
+</ul>
+
     <div className="navbar-actions">
   <button className="icon-button">
     <MoonIcon className="icon-svg" />
