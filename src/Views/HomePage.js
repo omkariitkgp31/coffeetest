@@ -3,7 +3,10 @@
 import React, { useState } from 'react';
 import './HomePage.css';
 
-import Header from './Header.js';
+//import Header from './Header.js';
+
+import Topfold from './Topfold.js';
+
 
 
 const HomePage = () => {
@@ -15,9 +18,12 @@ const HomePage = () => {
 
     return (
         <div className="cafe-homepage">
-            <Header />
+            <Topfold />
+            
         </div>
     );
 };
 
 export default HomePage;
+
+
