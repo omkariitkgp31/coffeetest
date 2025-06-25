@@ -1,3 +1,5 @@
+/*
+
 import React from 'react';
 import './Header.css';
 import webcafeCup from '../assets/images/image_v1.png';
@@ -27,3 +29,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+*/
