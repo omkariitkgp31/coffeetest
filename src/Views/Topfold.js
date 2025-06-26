@@ -4,6 +4,8 @@ import { MoonIcon } from '@heroicons/react/24/solid';
 
 import webcafeCup from '../assets/images/image_v1.png';
 import webcafeLogo from '../assets/images/logo512.png';
+import { Link } from 'react-router-dom';
+
 
 const Topfold = () => {
     return (
@@ -42,10 +44,10 @@ const Topfold = () => {
                     <h1>Helping developers build better with coffee and code.</h1>
                     <div className="hero-buttons">
                         <button className="btn-white">Read the blog</button>
-                        <button className="btn-dark">Take a course</button>
+                        <button className="btn-dark">About Me</button>
                     </div>
                     <div className="hero-scroll">
-                        <span>&darr;</span> Learn more about us
+                        <span>&darr;</span> Scroll to know more about us
                     </div>
                 </div>
                 <div className="hero-image">

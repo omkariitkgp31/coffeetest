@@ -1,5 +1,6 @@
-/* src/Views/HomePage.css */
 .cafe-homepage {
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
