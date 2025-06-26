@@ -7,8 +7,10 @@
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     width: 90%;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
+    margin-bottom: 80px; /* 👈 Add this line */
 }
+
 
 
 /* Navbar */

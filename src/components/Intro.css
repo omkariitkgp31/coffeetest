@@ -1,0 +1,92 @@
+.intro {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 4rem 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+
+
+.intro-left {
+    max-width: 360px;
+}
+
+.intro-video-thumbnail {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.intro-video-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 0.5rem 0.7rem;
+}
+
+.intro-caption {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    color: #b0b0b0;
+}
+
+.intro-caption a {
+    color: #9ecbff;
+    text-decoration: none;
+}
+
+.intro-caption a:hover {
+    text-decoration: underline;
+}
+
+.intro-right {
+    flex: 1;
+    max-width: 600px;
+}
+
+.intro-right h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+.intro-right p {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.intro-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: #9ecbff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.intro-link:hover {
+    transform: translateX(4px);
+}
